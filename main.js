@@ -1,9 +1,9 @@
-// Toggle sidebar open/close
+// Toggle sidebar
 function toggleMenu() {
   document.body.classList.toggle('menu-open');
 }
 
-// Navigate back to homepage
+// Back to homepage
 function goHome() {
   window.location.href = 'index.html';
 }
