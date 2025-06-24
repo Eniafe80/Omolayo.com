@@ -3,28 +3,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Admissions | Omolayo</title>
+  <title>Admissions | Omolayo International Schools</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <div class="menu-btn" onclick="toggleMenu()">☰</div>
+
   <aside class="sidebar">
-    <img src="logo.png" alt="Omolayo Logo" class="logo-img"/>
+    <img src="logo.png" alt="Omolayo Logo" class="logo-img" />
     <nav>
       <a href="index.html">Home</a>
-      <a href="admissions.html">Admissions</a>
+      <a href="admissions.html" class="active">Admissions</a>
       <a href="academics.html">Academics</a>
     </nav>
   </aside>
 
   <div class="main-content">
     <button class="back-btn" onclick="goHome()">← Back</button>
-    <h2>Admissions</h2>
-    <div class="programs">
-      <div class="program-box kd">KD</div>
-      <div class="program-box cred">CRED</div>
-      <div class="program-box gss1">GSS 1–3</div>
-    </div>
+
+    <section class="container">
+      <h2>Admissions</h2>
+      <p>We are currently enrolling students into the following classes:</p>
+
+      <!-- Applicant Type Cards -->
+      <div class="programs">
+        <div class="program-box kd">KD</div>
+        <div class="program-box cred">CRED</div>
+        <div class="program-box gss1">GSS 1–3</div>
+      </div>
+
+      <p class="apply-note">
+        Interested? Click your class above or fill out the <a href="index.html#admissions">admission form</a> on the homepage.
+      </p>
+    </section>
   </div>
 
   <script src="main.js"></script>
