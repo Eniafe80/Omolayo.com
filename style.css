@@ -94,7 +94,7 @@ body.menu-open .main-content {
   text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
 }
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   margin-bottom: 0.5rem;
 }
 .hero p {
@@ -144,7 +144,7 @@ h2 {
 
 /* Core Values */
 .core-values-list {
-  list-style: none;
+  list-style: disc;
   display: grid;
   gap: 0.8rem;
   margin-top: 1rem;
@@ -179,15 +179,16 @@ h2 {
 }
 .program-box {
   flex: 1;
-  color: var(--white);
+  color: var(--primary);
   padding: 2rem;
   text-align: center;
   font-size: 1.4rem;
   border-radius: 8px;
 }
-.kd { background: var(--kd); }
-.cred { background: var(--cred); color: #333; }
-.gss1 { background: var(--gss); }
+.kd { background: var(--kg); }
+.cred { background: var(--pre-nursery/nersery); color: #333; }
+.primary1-6 { background: var(--primary1-6); }
+ .jss1-3{ background: var(--jss1-3); }
 
 /* Back Button */
 .back-btn {
